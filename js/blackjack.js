@@ -48,7 +48,7 @@ function startGame() {
         dealerAceCount += checkAce(card);
         document.getElementById("dealer-cards").append(cardImg);
     }
-    console.log(dealerSum);
+    
 
     for (let i = 0; i < 2; i++) {
         let cardImg = document.createElement("img");
