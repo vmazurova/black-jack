@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="cs">
+    <head>
+        <title>Black Jack</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/black.jack.css">
+    <script src="js/blackjack.js"></script>
+    </head>
+<body>
+    <header class="jumbotron bg-primary">
+        <h1 class="display-2 text-light text-center">Black Jack</h1>
+    </header>
+    <h2><span>Dealer:<span id="dealer-sum"></span></span></h2>
+    <hr>
+        <div id="dealer-cards">
+            <img id="hidden" src="./img/BACK.png">
+        </div>
+
+        <h2><span>Hráč:<span id="your-sum"></span></span> </h2>
+        <hr>
+        <div id="your-cards"></div>
+
+        <br>
+        <button id="hit" class="btn btn-danger">Další karta!</button>
+        <button id="stay" class="btn btn-success">Zůstat!</button>
+        <p id="results"></p>
+</body>
+</html>
